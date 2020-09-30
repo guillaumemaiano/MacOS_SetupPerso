@@ -4,3 +4,5 @@ brew cask install xquartz && brew install mplayer
 echo "Check for less outdated version of NVM"
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 brew install youtube-dl
+ssh-keygen -t rsa -b 4096 -C "guillaume@maiano.fr"
+echo "Remember to write .ssh/config and do ssh-add -K ~/.ssh/id_rsa"
