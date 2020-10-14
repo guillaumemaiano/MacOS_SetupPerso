@@ -12,3 +12,4 @@ nvm --version
 nvm install node && nvm use node
 npm install -g @angular/cli
 brew install mitmproxy
+echo "MITM PROXY PAGE: https://mitmproxy.org"
