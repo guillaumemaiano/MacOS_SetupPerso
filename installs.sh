@@ -13,3 +13,7 @@ nvm install node && nvm use node
 npm install -g @angular/cli
 brew install mitmproxy
 echo "MITM PROXY PAGE: https://mitmproxy.org"
+gem install cocoapods --user-install
+echo 'export GEM_HOME=$HOME/.gem' >> ~/.zshrc
+echo 'export PATH=$GEM_HOME/bin:$PATH' >> ~/.zshrc
+sh userGemsInPath.sh
