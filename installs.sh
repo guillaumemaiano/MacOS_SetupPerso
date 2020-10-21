@@ -17,3 +17,4 @@ gem install cocoapods --user-install
 echo 'export GEM_HOME=$HOME/.gem' >> ~/.zshrc
 echo 'export PATH=$GEM_HOME/bin:$PATH' >> ~/.zshrc
 sh userGemsInPath.sh
+echo 'export dockjenk="docker run --name jenkins-CD -p 6009:8080 -p 50000:50000 -v ~/jenkins_home:/var/jenkins_home jenkins/jenkins:latest"' >> ~/.zshrc
